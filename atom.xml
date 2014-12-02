@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[じゃがいもエンジニアのブログ]]></title>
+  <link href="http://kenji-watauchi.github.io/octpress/atom.xml" rel="self"/>
+  <link href="http://kenji-watauchi.github.io/octpress/"/>
+  <updated>2014-12-01T20:43:06+09:00</updated>
+  <id>http://kenji-watauchi.github.io/octpress/</id>
+  <author>
+    <name><![CDATA[cotton]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Precompile]]></title>
+    <link href="http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompile/"/>
+    <updated>2014-12-01T19:42:29+09:00</updated>
+    <id>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompile</id>
+    <content type="html"><![CDATA[<p>どうも。初めてブログを書いてみます<strong>cotton</strong>です。
+web上でのアカウント名？呼び名？（なんていうのかすら知らない情弱です）が散在してしまってます。早速まずい・・・。</p>
+
+<p>そして掲載が遅れてしまいました。yucaoさんすみません・・。</p>
+
+<p>エンジニアに転向して2ヶ月のひよっこなので、記載内容の間違いにはどんどん突っ込んでいただけたらうれしいです。</p>
+
+<h1>precompileとはなんぞや</h1>
+
+<p>先週<a href="http://yochiyochirb.doorkeeper.jp/">よちよち.rb</a>というRuby on Railsの勉強海中、よく理解できなかった「precompile」という単語・・・。</p>
+
+<p><a href="http://railstutorial.jp/chapters/filling-in-the-layout?version=4.0#top">Ruby on Rails チュートリアル第5章</a>のリスト5.4に登場していました。</p>
+
+<p><img src="http://gyazo.com/d5123a1732b9735604a434f6e58eb498.png" alt="" /></p>
+
+<p>Asset Pipeline（JavaScriptやCSSを結合・圧縮することにより、ブラウザのリクエスト回数を減らすことができる機能）とbootstrap-sassに互換性を持たせるために記述らしい。</p>
+
+<p>チュートリアルにはこれ以上の説明がなかったので、precompileの定義を見てみました。</p>
+
+<p><em>コンパイルの前に前処理を行うプログラムのこと。「前処理系」とも言う。コンパイラは人間の記述したソースコードを、機械語の羅列であるオブジェクトコードに変換するが、その前段階として、ソースコードに一定の規則に従って処理を加えるのがプリプロセッサの役割である。</em>
+(引用元：<a href="http://e-words.jp/w/E38397E383AAE38397E383ADE382BBE38383E382B5.html">http://e-words.jp/w/E38397E383AAE38397E383ADE382BBE38383E382B5.html</a>)</p>
+
+<p>要するに、コンパイル前に、行いたい処理を補助する処理を行う機能、というところでしょうか。
+なんだか分かったようで全然分かってない・・。
+お詳しい方がいらっしゃったらぜひ教えていただきたいです！</p>
+
+<p>調べていくうちに次から次へとわからない用語が出てきて心を折られまくったので、今回はこの辺りにします。</p>
+
+<p>ブログ緊張する上にどんなふうに書いたらいいやらで、難しいですね・・・。</p>
+
+<p>先人のまとめ方を参考にしつつ、継続して書いていきたいと思います。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Firstpage]]></title>
+    <link href="http://kenji-watauchi.github.io/octpress/blog/2014/12/01/firstpage/"/>
+    <updated>2014-12-01T19:42:02+09:00</updated>
+    <id>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/firstpage</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First_page]]></title>
+    <link href="http://kenji-watauchi.github.io/octpress/blog/2014/12/01/first-page/"/>
+    <updated>2014-12-01T19:40:04+09:00</updated>
+    <id>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/first-page</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Precompileとはなんぞや]]></title>
+    <link href="http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompiletohananzoya/"/>
+    <updated>2014-12-01T19:38:54+09:00</updated>
+    <id>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompiletohananzoya</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>

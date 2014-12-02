@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://kenji-watauchi.github.io/octpress/sitemap.xml 

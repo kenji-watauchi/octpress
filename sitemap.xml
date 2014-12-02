@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompile/</loc>
+    <lastmod>2014-12-01T19:42:29+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/firstpage/</loc>
+    <lastmod>2014-12-01T19:42:02+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/first-page/</loc>
+    <lastmod>2014-12-01T19:40:04+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/blog/2014/12/01/precompiletohananzoya/</loc>
+    <lastmod>2014-12-01T19:38:54+09:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/blog/archives/</loc>
+    <lastmod>2014-12-01T20:43:06+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/</loc>
+    <lastmod>2014-12-01T20:43:06+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://kenji-watauchi.github.io/octpress/new-page/</loc>
+    <lastmod>2014-12-01T20:43:06+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

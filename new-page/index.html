@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Precompile - じゃがいもエンジニアのブログ</title>
+  <meta name="author" content="cotton">
+
+  
+  <meta name="description" content="Precompile Dec 1st, 2014 8:38 pm どうも。初めてブログを書いてみますcottonです。 web上でのアカウント名？呼び名？（なんていうのかすら知らない情弱です）が散> 在してしまってます。早速まずい・・・。 そして掲載が遅れてしまいました。yucaoさんすみません &hellip;&#8221;>
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kenji-watauchi.github.io/octpress/new-page">
+  <link href="/octpress/favicon.png" rel="icon">
+  <link href="/octpress/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/octpress/atom.xml" rel="alternate" title="じゃがいもエンジニアのブログ" type="application/atom+xml">
+  <script src="/octpress/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/octpress/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/octpress/">じゃがいもエンジニアのブログ</a></h1>
+  
+    <h2>不器用なりに楽しくやってます</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/octpress/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:kenji-watauchi.github.io/octpress" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/octpress/">Blog</a></li>
+  <li><a href="/octpress/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Precompile</h1>
+    <p class="meta">
+
+
+
+
+<time class='entry-date' datetime='2014-12-01T20:38:00+09:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>8:38 pm</span></time></p>
+  </header>
+  
+  <p>どうも。初めてブログを書いてみます<strong>cotton</strong>です。</p>
+
+<p>   web上でのアカウント名？呼び名？（なんていうのかすら知らない情弱です）が散>    在してしまってます。早速まずい・・・。</p>
+
+<pre><code> そして掲載が遅れてしまいました。yucaoさんすみません・・。
+
+
+
+
+
+    エンジニアに転向して2ヶ月のひよっこなので、記載内容の間違いにはどんどん突&gt;    っ込んでいただけたらうれしいです。
+
+
+
+
+
+       #precompileとはなんぞや
+
+
+
+         先週[よちよち.rb](http://yochiyochirb.doorkeeper.jp/)というRuby on Railsの
+
+            勉強海中、よく理解できなかった「precompile」という単語・・・。
+
+
+
+               [Ruby on Rails チュートリアル第5章](http://railstutorial.jp/chapters/filli    ng-in-the-layout?version=4.0#top)のリスト5.4に登場していました。
+
+
+
+                 ![](http://gyazo.com/d5123a1732b9735604a434f6e58eb498.png)
+
+
+
+                   Asset Pipeline（JavaScriptやCSSを結合・圧縮することにより、ブラウザのリク&gt;    エスト回数を減らすことができる機能）とbootstrap-sassに互換性を持たせるため
+
+                      に記述らしい。
+
+
+
+                         チュートリアルにはこれ以上の説明がなかったので、precompileの定義を見てみま
+
+                            した。
+
+
+
+                             *コンパイルの前に前処理を行うプログラムのこと。「前処理系」とも言う。コン&gt;    パイラは人間の記述したソースコードを、機械語の羅列であるオブジェクトコード
+
+                                 に変換するが、その前段階として、ソースコードに一定の規則に従って処理を加え
+
+                                     るのがプリプロセッサの役割である。*
+
+                                       (引用元：http://e-words.jp/w/E38397E383AAE38397E383ADE382BBE38383E382B5.ht    ml)
+
+
+
+                                        要するに、コンパイル前に、行いたい処理を補助する処理を行う機能、というとこ
+
+                                            ろでしょうか。
+
+                                             なんだか分かったようで全然分かってない・・。
+
+                                               お詳しい方がいらっしゃったらぜひ教えていただきたいです！
+
+
+
+                                                 調べていくうちに次から次へとわからない用語が出てきて心を折られまくったので
+
+                                                    、今回はこの辺りにします。
+
+
+
+
+
+                                                        ブログ緊張する上にどんなふうに書いたらいいやらで、難しいですね・・・。
+
+
+
+                                                        先人のまとめ方を参考にしつつ、継続して書いていきたいと思います。
+</code></pre>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
+
+
+
+<time class='entry-date' datetime='2014-12-01T20:38:00+09:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>8:38 pm</span></time>
+        
+      </p>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://kenji-watauchi.github.io/octpress/new-page/index.html" data-via="" data-counturl="http://kenji-watauchi.github.io/octpress/new-page/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/octpress/blog/2014/12/01/precompile/">Precompile</a>
+      </li>
+    
+      <li class="post">
+        <a href="/octpress/blog/2014/12/01/firstpage/">Firstpage</a>
+      </li>
+    
+      <li class="post">
+        <a href="/octpress/blog/2014/12/01/first-page/">First_page</a>
+      </li>
+    
+      <li class="post">
+        <a href="/octpress/blog/2014/12/01/precompiletohananzoya/">Precompileとはなんぞや</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - cotton -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
